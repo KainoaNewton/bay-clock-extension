@@ -5,7 +5,7 @@
   "description": "Shows the schedule for the Bay School of San Francisco.",
   "version": "1.0",
 
-  "actions": {
+  "action": {
     "default_popup": "popup.html",
     "default_icon": "favicon.png"
   }
