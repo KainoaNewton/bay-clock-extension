@@ -6,8 +6,7 @@ A browser extension that lets you use Bay Clock in a small popup anywhere!
 ## Installation
 
 ### Automatic
-> [!WARNING]
-> This extension is currently not on the chrome web store so you will have to install it manually.
+![Go to extension on chrome web store.](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/HRs9MPufa1J1h5glNhut.png)
 
 ### Manual
 1. Download this code and unzip the folder
