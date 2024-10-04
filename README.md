@@ -16,7 +16,14 @@ A browser extension that lets you use Bay Clock in a small popup anywhere!
 4. Select the unzipped folder
 5. That's it!
 
+## Changelog
+
+- forked [Lucas Chang's extension](https://github.com/lucaskchang/bay-clock-extension)
+- Updated to manifest 3.0
+- Fixed some bugs
+- Added customizable sizes to choose what parts of bayclock you see
+
 ## Credits
 
 - Origionally created by @lukajaa
-- Updated to manifest 3.0 and fixed by @KainoaNewton
+- Origionally created by @lucaskchang
