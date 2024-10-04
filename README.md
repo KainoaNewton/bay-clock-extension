@@ -25,5 +25,4 @@ A browser extension that lets you use Bay Clock in a small popup anywhere!
 
 ## Credits
 
-- Origionally created by @lukajaa
 - Origionally created by @lucaskchang
