@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Settings</title>
+    <link rel="stylesheet" href="settings.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="left">
+        <h1>Settings</h1>
+
+        <label for="enable-scrolling">Allow Scrolling:</label>
+        <input type="checkbox" id="enable-scrolling" checked>
+        <br>
+        <label for="iframe-size">Popup Size:</label>
+        <select id="iframe-size">
+            <option value="300x110">Small</option>
+            <option value="300x150">Small+</option>
+            <option value="300x545">Medium</option>
+            <option value="345x545">Medium+</option>
+            <option value="785x665">Large</option>
+            <option value="785x755">Full</option>
+        </select>
+    </div>
+
+    <div id="right">
+        <h1>Popup Preview</h1>
+
+        <div id="popup-preview" style="margin-top: 20px;">
+            <iframe id="preview-iframe" src="https://bayclock.org" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="settings.js"></script>
+</body>
+
+</html>

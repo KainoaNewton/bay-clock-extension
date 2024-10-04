@@ -3,7 +3,7 @@
 
   "name": "Bay Clock",
   "description": "Shows the schedule for the Bay School of San Francisco.",
-  "version": "1.0",
+  "version": "2.0",
   "icons": {
     "16": "icon.png",
     "32": "icon.png",
@@ -12,19 +12,11 @@
   },
 
   "action": {
-    "default_title": "Bay Clock",
     "default_popup": "popup.html",
     "default_icon": "icon.png"
   },
-  "commands": {
-    "_execute_action": {
-        "suggested_key": {
-            "default": "Ctrl+Shift+B"
-        },
-        "description": "Open the Bay Clock popup"
-    }
-  },
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "permissions": ["storage", "contextMenus"]
 }

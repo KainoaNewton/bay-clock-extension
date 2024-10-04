@@ -1,0 +1,36 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 10px;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: space-evenly;
+	padding-block: 5%;
+	background-color: #141614;
+	color: #f0f0f0;
+	font-size: 1.5rem;
+}
+
+iframe {
+	border: 2px solid #374151;
+	border-radius: 10px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+select {
+	border: 2px solid #374151;
+	background-color: #030712;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #f0f0f0;
+	outline: none;
+	padding: 2px;
+	font-size: 1.2rem;
+}
+
+input {
+	outline: none;
+}
